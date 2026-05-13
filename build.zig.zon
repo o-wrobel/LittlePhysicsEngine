@@ -1,6 +1,6 @@
 .{
     .name = .little_physics_engine,
-    .version = "0.1.0",
+    .version = "0.2.0",
     .dependencies = .{
         .simple_vectors = .{
             .url = "git+https://github.com/o-wrobel/SimpleVectors.git#9d145c49558e44428f44bbf82534dbddcb5b82ef",
