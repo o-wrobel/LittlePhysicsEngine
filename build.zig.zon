@@ -1,5 +1,5 @@
 .{
-    .name = .LittlePhysicsEngine,
+    .name = .little_physics_engine,
     .version = "0.0.1",
     .dependencies = .{
         .simple_vectors = .{
@@ -13,5 +13,5 @@
         "build.zig.zon",
         "src",
     },
-    .fingerprint = 0xe978659f974db1d1,
+    .fingerprint = 0x688409448cdbdc67,
 }
