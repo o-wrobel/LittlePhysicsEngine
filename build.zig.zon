@@ -1,0 +1,17 @@
+.{
+    .name = .LittlePhysicsEngine,
+    .version = "0.0.1",
+    .dependencies = .{
+        .simple_vectors = .{
+            .url = "git+https://github.com/o-wrobel/SimpleVectors.git#9d145c49558e44428f44bbf82534dbddcb5b82ef",
+            .hash = "simple_vectors-4.1.0-LZed268ZAAD24OfbAgVqL0vnLefwXlj1XWhP5MvTvGTF",
+        },
+    },
+    .minimum_zig_version = "0.16.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+    .fingerprint = 0xe978659f974db1d1,
+}
