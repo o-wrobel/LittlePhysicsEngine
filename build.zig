@@ -8,8 +8,20 @@ pub fn build(b: *std.Build) void {
 		.target = target,
 		.optimize = optimize,
 	});
-	const vec2_mod = vec_dep.module("Vector2");
-	const vec3_mod = vec_dep.module("Vector3");
+	const vector2 = vec_dep.module("Vector2");
+	const vector3 = vec_dep.module("Vector3");
+	const vector2_mod = b.addModule(
+		"Vector2",
+		.{
+			.root_source_file = vector2.root_source_file,
+		}
+	);
+	const vector3_mod = b.addModule(
+		"Vector3",
+		.{
+			.root_source_file = vector3.root_source_file,
+		}
+	);
 
 	const mod = b.addModule(
 		"Simulation",
@@ -20,7 +32,7 @@ pub fn build(b: *std.Build) void {
 		}
 	);
 
-	mod.addImport("Vector2", vec2_mod);
-	mod.addImport("Vector3", vec3_mod);
+	mod.addImport("Vector2", vector2_mod);
+	mod.addImport("Vector3", vector3_mod);
 
 }
