@@ -3,8 +3,8 @@
     .version = "0.2.1",
     .dependencies = .{
         .simple_vectors = .{
-            .url = "git+https://github.com/o-wrobel/SimpleVectors.git#0cfba6c1fcba598d470802e704510a457f0d49ee",
-            .hash = "simple_vectors-4.2.0-LZed240hAAD3nVdqtarb4KXpJHlynmA7kSM3lRudz6_L",
+            .url = "git+https://github.com/o-wrobel/SimpleVectors.git#3424723199f3a69c6816aff0e4a4dff036001ff0",
+            .hash = "simple_vectors-4.2.0-LZed25UhAACRAlNgNJAhCF7IpAZJ2t5jUpqFZUYqgHbA",
         },
     },
     .minimum_zig_version = "0.16.0",
