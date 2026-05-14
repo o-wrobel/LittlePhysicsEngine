@@ -1,10 +1,10 @@
 .{
     .name = .little_physics_engine,
-    .version = "0.2.0",
+    .version = "0.2.1",
     .dependencies = .{
         .simple_vectors = .{
-            .url = "git+https://github.com/o-wrobel/SimpleVectors.git#9d145c49558e44428f44bbf82534dbddcb5b82ef",
-            .hash = "simple_vectors-4.1.0-LZed268ZAAD24OfbAgVqL0vnLefwXlj1XWhP5MvTvGTF",
+            .url = "git+https://github.com/o-wrobel/SimpleVectors.git#0cfba6c1fcba598d470802e704510a457f0d49ee",
+            .hash = "simple_vectors-4.2.0-LZed240hAAD3nVdqtarb4KXpJHlynmA7kSM3lRudz6_L",
         },
     },
     .minimum_zig_version = "0.16.0",
